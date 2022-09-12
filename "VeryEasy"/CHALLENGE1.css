@@ -10,19 +10,20 @@ body {
 }
 
 .checkerboard{
-    height: 100vh;
-    width: 50vw;
+    height: 50vh;
+    width: 25vw;
     border: solid 1px black;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
-
+    margin-top: 10%;
+    margin-left: 40%;
 }
 
  .box {
-  background: black;
+  background: white;
  }
 
  .box2 {
-    background: white;
+    background: black;
  }
